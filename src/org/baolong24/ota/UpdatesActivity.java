@@ -135,7 +135,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         androidVersion.setText(String.format(getResources()
                 .getString(R.string.android_version, Build.VERSION.RELEASE)));
         evolutionVersion.setText(String.format(getResources()
-                .getString(R.string.evolution_version, SystemProperties.get("org.baolong24.build_version"))));
+                .getString(R.string.evolution_version, SystemProperties.get("ro.exthm.display.version"))));
         securityVersion.setText(String.format(getResources()
                 .getString(R.string.security_patch_level), Utils.getSecurityPatchLevel()));
         lastUpdateCheck.setText(String.format(getResources()
