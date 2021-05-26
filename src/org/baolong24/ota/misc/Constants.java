@@ -41,7 +41,7 @@ public final class Constants {
     static final String PROP_VERSION_CODE = "ro.exthm.releasetype";
     static final String OTA_URL = "https://ota.exthmui.cn/ota_config/builds/%s.json";
     static final String DOWNLOAD_WEBPAGE_URL = "https://ota.exthmui.cn/ota_config/changelogs/%s/%s.txt";
-    public static final String DOWNLOAD_PATH = "/data/system_updates/";
+    public static final String DOWNLOAD_PATH = "/data/exthmui_updates/";
     static final String EXPORT_PATH = "System-Updates/";
     public static  String fileName = "";
 }
